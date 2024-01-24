@@ -1,0 +1,18 @@
+2024-01-23 19:53:08.558 [info] ログ レベル: Info
+2024-01-23 19:53:08.558 [info] Git の検証が検出されました: "git"
+2024-01-23 19:53:08.558 [info] "git" から Git "2.34.1" を使用しています
+2024-01-23 19:53:08.568 [info] > git rev-parse --show-toplevel [10ms]
+2024-01-23 19:53:08.606 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 19:53:08.615 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.621 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.630 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.637 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.645 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.652 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.664 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 19:53:08.696 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 19:53:08.714 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 19:58:15.733 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-23 19:58:29.537 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-23 19:58:32.927 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-23 20:12:02.504 [info] > git rev-parse --show-toplevel [4ms]

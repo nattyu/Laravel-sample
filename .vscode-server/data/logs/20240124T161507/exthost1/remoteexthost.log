@@ -1,0 +1,32 @@
+2024-01-24 16:15:09.353 [info] Extension host with pid 484 started
+2024-01-24 16:15:09.367 [info] Lock '/home/nattyu/.vscode-server/data/User/workspaceStorage/e6a6130960c1a534f20816c6f7516df5/vscode.lock': Lock acquired.
+2024-01-24 16:15:09.952 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-24 16:15:09.954 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-01-24 16:15:10.442 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-24 16:15:10.446 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-24 16:15:10.680 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-24 16:15:10.680 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-24 16:15:10.934 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-24 16:15:10.935 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-24 16:15:11.886 [info] Eager extensions activated
+2024-01-24 16:15:11.887 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 16:15:11.888 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 16:15:13.161 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2024-01-24 16:15:23.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-24 16:15:25.139 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-24 16:25:55.157 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-01-24 16:31:20.473 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-01-24 16:32:29.254 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-01-24 16:32:29.870 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-01-24 16:32:43.109 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2024-01-24 16:35:50.299 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10008
+2024-01-24 17:54:10.385 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-01-24 17:55:50.365 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-01-24 18:04:31.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10172
+2024-01-24 18:04:47.290 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?

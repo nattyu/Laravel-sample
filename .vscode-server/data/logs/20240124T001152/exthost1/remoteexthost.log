@@ -1,0 +1,185 @@
+2024-01-24 00:11:56.605 [info] Extension host with pid 807 started
+2024-01-24 00:11:56.636 [info] Lock '/home/nattyu/.vscode-server/data/User/workspaceStorage/e6a6130960c1a534f20816c6f7516df5/vscode.lock': Lock acquired.
+2024-01-24 00:11:57.125 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-24 00:11:57.127 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-01-24 00:11:57.746 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-24 00:11:57.758 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-01-24 00:11:57.894 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-24 00:11:57.896 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-24 00:11:58.436 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-24 00:11:58.436 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-24 00:11:59.721 [info] Eager extensions activated
+2024-01-24 00:11:59.722 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 00:11:59.723 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 00:12:11.990 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2024-01-24 00:12:18.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-24 00:12:20.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-01-24 00:13:04.287 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-01-24 00:13:04.712 [warning] Using default string since no string found in i18n bundle that has the key: Learn more
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Yes
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: No
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Cancel
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Delete
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Don't warn again
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Skip for now
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Upload
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Always upload
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Don't upload
+2024-01-24 00:13:04.795 [warning] Using default string since no string found in i18n bundle that has the key: Report an issue
+2024-01-24 00:13:04.828 [warning] Using default string since no string found in i18n bundle that has the key: "registerUIExtensionVariables" must be called before using the vscode-azureextensionui package.
+2024-01-24 00:13:04.831 [warning] Using default string since no string found in i18n bundle that has the key: This operation is not supported.
+2024-01-24 00:13:04.879 [warning] Using default string since no string found in i18n bundle that has the key: Load More...
+2024-01-24 00:13:05.014 [warning] Using default string since no string found in i18n bundle that has the key: Use a Dockerfile
+2024-01-24 00:13:05.015 [warning] Using default string since no string found in i18n bundle that has the key: Use .NET SDK
+2024-01-24 00:13:05.020 [warning] Using default string since no string found in i18n bundle that has the key: No grouping
+2024-01-24 00:13:05.020 [warning] Using default string since no string found in i18n bundle that has the key: Sort by newest
+2024-01-24 00:13:05.020 [warning] Using default string since no string found in i18n bundle that has the key: Sort alphabetically by label
+2024-01-24 00:13:05.022 [warning] Using default string since no string found in i18n bundle that has the key: Value used to associate containers launched by a 'docker-compose up' command
+2024-01-24 00:13:05.022 [warning] Using default string since no string found in i18n bundle that has the key: Individual Containers
+2024-01-24 00:13:05.022 [warning] Using default string since no string found in i18n bundle that has the key: Others
+2024-01-24 00:13:05.025 [warning] Using default string since no string found in i18n bundle that has the key: Choose a project file
+2024-01-24 00:13:05.025 [warning] Using default string since no string found in i18n bundle that has the key: No C# or F# project files were found in the workspace.
+2024-01-24 00:13:05.025 [warning] Using default string since no string found in i18n bundle that has the key: Choose a package.json file
+2024-01-24 00:13:05.025 [warning] Using default string since no string found in i18n bundle that has the key: No package.json files were found in the workspace.
+2024-01-24 00:13:05.028 [warning] Using default string since no string found in i18n bundle that has the key: Overwrite File
+2024-01-24 00:13:05.029 [warning] Using default string since no string found in i18n bundle that has the key: Skip File
+2024-01-24 00:13:05.029 [warning] Using default string since no string found in i18n bundle that has the key: Cancel
+2024-01-24 00:13:05.071 [warning] Using default string since no string found in i18n bundle that has the key: Redis is an open source key-value store that functions as a data structure server.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: Ubuntu is a Debian-based Linux operating system based on free software.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: The WordPress rich content management system can utilize plugins, widgets, and themes.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: MySQL is a widely used, open-source relational database management system (RDBMS).
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: MongoDB document databases provide high availability and easy scalability.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: The official build of CentOS.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: Node.js is a JavaScript-based platform for server-side and networking applications.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: Official build of Nginx.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: The PostgreSQL object-relational database system provides reliability and data integrity.
+2024-01-24 00:13:05.072 [warning] Using default string since no string found in i18n bundle that has the key: ASP.NET is an open source server-side Web application framework
+2024-01-24 00:13:05.333 [warning] Using default string since no string found in i18n bundle that has the key: Containers
+2024-01-24 00:13:05.333 [warning] Using default string since no string found in i18n bundle that has the key: Configure containers explorer
+2024-01-24 00:13:05.339 [warning] Using default string since no string found in i18n bundle that has the key: Networks
+2024-01-24 00:13:05.339 [warning] Using default string since no string found in i18n bundle that has the key: Configure networks explorer
+2024-01-24 00:13:05.343 [warning] Using default string since no string found in i18n bundle that has the key: Images
+2024-01-24 00:13:05.343 [warning] Using default string since no string found in i18n bundle that has the key: Configure images explorer
+2024-01-24 00:13:05.343 [warning] Using default string since no string found in i18n bundle that has the key: Sort by image size
+2024-01-24 00:13:05.345 [warning] Using default string since no string found in i18n bundle that has the key: Generic Registry V2
+2024-01-24 00:13:05.345 [warning] Using default string since no string found in i18n bundle that has the key: Azure
+2024-01-24 00:13:05.345 [warning] Using default string since no string found in i18n bundle that has the key: Azure Container Registry
+2024-01-24 00:13:05.346 [warning] Using default string since no string found in i18n bundle that has the key: Docker Hub
+2024-01-24 00:13:05.346 [warning] Using default string since no string found in i18n bundle that has the key: GitHub
+2024-01-24 00:13:05.346 [warning] Using default string since no string found in i18n bundle that has the key: GitHub Container Registry
+2024-01-24 00:13:05.347 [warning] Using default string since no string found in i18n bundle that has the key: Volumes
+2024-01-24 00:13:05.347 [warning] Using default string since no string found in i18n bundle that has the key: Configure volumes explorer
+2024-01-24 00:13:05.347 [warning] Using default string since no string found in i18n bundle that has the key: Contexts
+2024-01-24 00:13:05.348 [warning] Using default string since no string found in i18n bundle that has the key: Configure Docker Contexts Explorer
+2024-01-24 01:01:03.366 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-01-24 11:38:39.347 [info] Extension host terminating: received terminate message from renderer
+2024-01-24 11:38:39.349 [info] Lock '/home/nattyu/.vscode-server/data/User/workspaceStorage/e6a6130960c1a534f20816c6f7516df5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-24 11:38:39.618 [error] Canceled: Canceled
+	at new g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:924696)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:16509)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-24 11:38:39.624 [error] Canceled: Canceled
+	at new g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at u.U (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at b.registerCommand.description (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:322364)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js:2:323005
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:1016450)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:940613)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:945552)
+	at l.<anonymous> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at l.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at l.<anonymous> (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js:2:926708)
+	at l.dispose (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:171:7849)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:16509)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19527)
+	at n.acceptFrame (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:19333)
+	at i.n (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:17832)
+	at /home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:15052
+	at Socket.E (/home/nattyu/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js:168:12957)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-01-24 11:38:39.768 [info] Extension host with pid 807 exiting with code 0
