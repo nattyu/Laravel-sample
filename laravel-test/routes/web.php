@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TestController;
 use App\Http\Controllers\PostController;
 
 /*
@@ -30,12 +29,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/test', [TestController::class, 'test'])->name('test');
-
-Route::middleware(['auth', 'admin'])->group(function () {
-    Route::get('post', [PostController::class, 'index']);
-    Route::post('post', [PostController::class, 'store'])->name('post.store');
-    Route::get('post/create', [PostController::class, 'create']);
-});
+Route::resource('post', PostController::class);
 
 require __DIR__.'/auth.php';
