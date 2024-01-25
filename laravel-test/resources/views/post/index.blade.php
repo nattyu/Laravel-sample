@@ -6,6 +6,7 @@
     </x-slot>
 
     <div class="mx-auto px-6">
+        <x-message :message="session('message')" />
         @foreach ($posts as $post)
         <div class="mt-4 p-8 bg-white w-full rounded-2xl">
             <h1 class="p-4 text-lg font-semibold">
@@ -25,5 +26,8 @@
             </div>
         </div>
         @endforeach
+        <div class="mb-4">
+            {{ $posts->links() }}
+        </div>
     </div>
 </x-app-layout>
