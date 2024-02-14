@@ -1,0 +1,30 @@
+[Info  - 9:58:39 AM] Initialising intelephense 1.10.2
+[Info  - 9:58:39 AM] Reading state from /home/nattyu/.vscode-server/data/User/workspaceStorage/5d5ad518a425d6cb473e517b3a0ba92f/bmewburn.vscode-intelephense-client/4c1f4e7a.
+[Info  - 9:58:41 AM] Initialised in 1817 ms
+[Info  - 9:58:43 AM] Searching file:///home/nattyu/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.10.2/node_modules/intelephense/lib/stub for files to index.
+[Info  - 9:58:43 AM] Searching file:///home/nattyu/tennis-court-schedules for files to index.
+[Warn  - 9:58:43 AM] file:///home/nattyu/tennis-court-schedules/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 9:58:43 AM] Indexing started.
+[Info  - 9:58:43 AM] Indexing ended. 5 files indexed in 0s.
+[Info  - 9:58:43 AM] Writing state to /home/nattyu/.vscode-server/data/User/workspaceStorage/5d5ad518a425d6cb473e517b3a0ba92f/bmewburn.vscode-intelephense-client/4c1f4e7a.
+[Info  - 9:58:45 AM] Wrote state in 1.7s.
+[Info  - 10:30:26 AM] Indexing started.
+[Info  - 10:30:26 AM] Indexing ended. 2 files indexed in 0s.
+[Info  - 10:30:29 AM] Indexing started.
+[Info  - 10:30:29 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:37:11 AM] Indexing started.
+[Info  - 10:37:11 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:37:12 AM] Indexing started.
+[Info  - 10:37:12 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:39:24 AM] Indexing started.
+[Info  - 10:39:24 AM] Indexing ended. 3 files indexed in 0s.
+[Info  - 10:47:29 AM] Indexing started.
+[Info  - 10:47:29 AM] Indexing ended. 2 files indexed in 0s.
+[Info  - 10:47:41 AM] Indexing started.
+[Info  - 10:47:42 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 11:06:22 AM] Indexing started.
+[Info  - 11:06:23 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 11:06:23 AM] Indexing started.
+[Info  - 11:06:23 AM] Indexing ended. 1 files indexed in 0s.
+[Info  - 11:15:27 AM] Indexing started.
+[Info  - 11:15:27 AM] Indexing ended. 1 files indexed in 0s.

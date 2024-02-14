@@ -1,0 +1,19 @@
+2024-02-11 22:38:02.719 [info] 
+
+
+
+
+2024-02-11 22:38:02.741 [info] Extension host agent started.
+2024-02-11 22:38:03.031 [info] [127.0.0.1][465354b0][ManagementConnection] New connection established.
+2024-02-11 22:38:03.989 [info] [127.0.0.1][af010567][ExtensionHostConnection] New connection established.
+2024-02-11 22:38:04.009 [info] [127.0.0.1][af010567][ExtensionHostConnection] <1066> Launched Extension Host Process.
+2024-02-11 22:38:09.225 [info] Getting Manifest... onecentlin.laravel-blade
+2024-02-11 22:38:09.316 [info] Installing extension: onecentlin.laravel-blade
+2024-02-11 22:38:12.917 [warning] Extension signature verification failed with error 'ENOENT': onecentlin.laravel-blade
+2024-02-11 22:38:15.468 [info] Extracted extension to file:///home/nattyu/.vscode-server/extensions/onecentlin.laravel-blade-1.35.1: onecentlin.laravel-blade
+2024-02-11 22:38:15.566 [info] Renamed to /home/nattyu/.vscode-server/extensions/onecentlin.laravel-blade-1.35.1
+2024-02-11 22:38:15.573 [info] Extracting extension completed. onecentlin.laravel-blade
+2024-02-11 22:38:15.612 [info] Extension installed successfully: onecentlin.laravel-blade
+2024-02-11 22:38:15.649 [info] Marked extension as uninstalled onecentlin.laravel-blade-1.34.0
+2024-02-11 22:58:26.043 [info] [127.0.0.1][465354b0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-11 22:58:26.294 [info] [127.0.0.1][af010567][ExtensionHostConnection] <1066> Extension Host Process exited with code: 0, signal: null.

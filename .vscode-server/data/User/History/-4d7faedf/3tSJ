@@ -1,0 +1,1558 @@
+first commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   tennis-court-schedules/.editorconfig
+#	new file:   tennis-court-schedules/.env.example
+#	new file:   tennis-court-schedules/.gitattributes
+#	new file:   tennis-court-schedules/.gitignore
+#	new file:   tennis-court-schedules/README.md
+#	new file:   tennis-court-schedules/app/Console/Kernel.php
+#	new file:   tennis-court-schedules/app/Exceptions/Handler.php
+#	new file:   tennis-court-schedules/app/Helpers/helpers.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/AuthenticatedSessionController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/ConfirmablePasswordController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/EmailVerificationNotificationController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/EmailVerificationPromptController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/NewPasswordController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/PasswordController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/PasswordResetLinkController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/RegisteredUserController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Auth/VerifyEmailController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/Controller.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/PostAttendanceController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/PostCourtController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/ProfileController.php
+#	new file:   tennis-court-schedules/app/Http/Controllers/RegistNewCourtController.php
+#	new file:   tennis-court-schedules/app/Http/Kernel.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/Authenticate.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/EncryptCookies.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/PreventRequestsDuringMaintenance.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/RedirectIfAuthenticated.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/TrimStrings.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/TrustHosts.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/TrustProxies.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/ValidateSignature.php
+#	new file:   tennis-court-schedules/app/Http/Middleware/VerifyCsrfToken.php
+#	new file:   tennis-court-schedules/app/Http/Requests/Auth/LoginRequest.php
+#	new file:   tennis-court-schedules/app/Http/Requests/ProfileUpdateRequest.php
+#	new file:   tennis-court-schedules/app/Models/ElectedCourt.php
+#	new file:   tennis-court-schedules/app/Models/PostAttendance.php
+#	new file:   tennis-court-schedules/app/Models/PostCourt.php
+#	new file:   tennis-court-schedules/app/Models/RegistNewCourt.php
+#	new file:   tennis-court-schedules/app/Models/User.php
+#	new file:   tennis-court-schedules/app/Providers/AppServiceProvider.php
+#	new file:   tennis-court-schedules/app/Providers/AuthServiceProvider.php
+#	new file:   tennis-court-schedules/app/Providers/BroadcastServiceProvider.php
+#	new file:   tennis-court-schedules/app/Providers/EventServiceProvider.php
+#	new file:   tennis-court-schedules/app/Providers/RouteServiceProvider.php
+#	new file:   tennis-court-schedules/app/View/Components/AppLayout.php
+#	new file:   tennis-court-schedules/app/View/Components/GuestLayout.php
+#	new file:   tennis-court-schedules/artisan
+#	new file:   tennis-court-schedules/bootstrap/app.php
+#	new file:   tennis-court-schedules/bootstrap/cache/.gitignore
+#	new file:   tennis-court-schedules/composer.json
+#	new file:   tennis-court-schedules/composer.lock
+#	new file:   tennis-court-schedules/config/app.php
+#	new file:   tennis-court-schedules/config/auth.php
+#	new file:   tennis-court-schedules/config/broadcasting.php
+#	new file:   tennis-court-schedules/config/cache.php
+#	new file:   tennis-court-schedules/config/cors.php
+#	new file:   tennis-court-schedules/config/database.php
+#	new file:   tennis-court-schedules/config/filesystems.php
+#	new file:   tennis-court-schedules/config/hashing.php
+#	new file:   tennis-court-schedules/config/logging.php
+#	new file:   tennis-court-schedules/config/mail.php
+#	new file:   tennis-court-schedules/config/queue.php
+#	new file:   tennis-court-schedules/config/sanctum.php
+#	new file:   tennis-court-schedules/config/services.php
+#	new file:   tennis-court-schedules/config/session.php
+#	new file:   tennis-court-schedules/config/view.php
+#	new file:   tennis-court-schedules/database/.gitignore
+#	new file:   tennis-court-schedules/database/factories/UserFactory.php
+#	new file:   tennis-court-schedules/database/migrations/2014_10_12_000000_create_users_table.php
+#	new file:   tennis-court-schedules/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php
+#	new file:   tennis-court-schedules/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+#	new file:   tennis-court-schedules/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_115907_create_elected_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_142526_create_regist_new_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_151557_add_columns_to_users_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_152750_add_columns_to_elected_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_165046_create_post_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_183009_add_date_column_to_post_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_01_28_202200_create_post_attendances_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_02_02_222713_change_columns_type_of_post_courts_table.php
+#	new file:   tennis-court-schedules/database/migrations/2024_02_11_230355_add_status_column_to_users_table.php
+#	new file:   tennis-court-schedules/database/seeders/DatabaseSeeder.php
+#	new file:   tennis-court-schedules/docker-compose.yml
+#	new file:   tennis-court-schedules/ers')->get();DB::table('users')->get();
+#	new file:   tennis-court-schedules/lang/en/auth.php
+#	new file:   tennis-court-schedules/lang/en/pagination.php
+#	new file:   tennis-court-schedules/lang/en/passwords.php
+#	new file:   tennis-court-schedules/lang/en/validation.php
+#	new file:   tennis-court-schedules/lang/ja.json
+#	new file:   tennis-court-schedules/lang/ja/auth.php
+#	new file:   tennis-court-schedules/lang/ja/pagination.php
+#	new file:   tennis-court-schedules/lang/ja/passwords.php
+#	new file:   tennis-court-schedules/lang/ja/validation.php
+#	new file:   tennis-court-schedules/package-lock.json
+#	new file:   tennis-court-schedules/package.json
+#	new file:   tennis-court-schedules/phpunit.xml
+#	new file:   tennis-court-schedules/postcss.config.js
+#	new file:   tennis-court-schedules/public/.htaccess
+#	new file:   tennis-court-schedules/public/favicon.ico
+#	new file:   tennis-court-schedules/public/index.php
+#	new file:   tennis-court-schedules/public/robots.txt
+#	new file:   tennis-court-schedules/resources/css/app.css
+#	new file:   tennis-court-schedules/resources/js/app.js
+#	new file:   tennis-court-schedules/resources/js/bootstrap.js
+#	new file:   tennis-court-schedules/resources/views/attendance/edit-attendance.blade.php
+#	new file:   tennis-court-schedules/resources/views/attendance/post-attendance.blade.php
+#	new file:   tennis-court-schedules/resources/views/attendance/show-attendance.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/confirm-password.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/forgot-password.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/login.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/register.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/reset-password.blade.php
+#	new file:   tennis-court-schedules/resources/views/auth/verify-email.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/application-logo.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/auth-session-status.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/danger-button.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/dropdown-link.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/dropdown.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/input-error.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/input-label.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/modal.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/nav-link.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/primary-button.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/responsive-nav-link.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/secondary-button.blade.php
+#	new file:   tennis-court-schedules/resources/views/components/text-input.blade.php
+#	new file:   tennis-court-schedules/resources/views/court/edit-court.blade.php
+#	new file:   tennis-court-schedules/resources/views/court/index-court.blade.php
+#	new file:   tennis-court-schedules/resources/views/court/post-court.blade.php
+#	new file:   tennis-court-schedules/resources/views/court/show-court.blade.php
+#	new file:   tennis-court-schedules/resources/views/dashboard.blade.php
+#	new file:   tennis-court-schedules/resources/views/layouts/app.blade.php
+#	new file:   tennis-court-schedules/resources/views/layouts/guest.blade.php
+#	new file:   tennis-court-schedules/resources/views/layouts/navigation.blade.php
+#	new file:   tennis-court-schedules/resources/views/profile/edit.blade.php
+#	new file:   tennis-court-schedules/resources/views/profile/partials/delete-user-form.blade.php
+#	new file:   tennis-court-schedules/resources/views/profile/partials/update-password-form.blade.php
+#	new file:   tennis-court-schedules/resources/views/profile/partials/update-profile-information-form.blade.php
+#	new file:   tennis-court-schedules/resources/views/regist/regist-new-court.blade.php
+#	new file:   tennis-court-schedules/resources/views/welcome.blade.php
+#	new file:   tennis-court-schedules/routes/api.php
+#	new file:   tennis-court-schedules/routes/auth.php
+#	new file:   tennis-court-schedules/routes/channels.php
+#	new file:   tennis-court-schedules/routes/console.php
+#	new file:   tennis-court-schedules/routes/web.php
+#	new file:   tennis-court-schedules/storage/app/.gitignore
+#	new file:   tennis-court-schedules/storage/app/public/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/cache/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/cache/data/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/sessions/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/testing/.gitignore
+#	new file:   tennis-court-schedules/storage/framework/views/.gitignore
+#	new file:   tennis-court-schedules/storage/logs/.gitignore
+#	new file:   tennis-court-schedules/tailwind.config.js
+#	new file:   tennis-court-schedules/tests/CreatesApplication.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/AuthenticationTest.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/EmailVerificationTest.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/PasswordConfirmationTest.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/PasswordResetTest.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/PasswordUpdateTest.php
+#	new file:   tennis-court-schedules/tests/Feature/Auth/RegistrationTest.php
+#	new file:   tennis-court-schedules/tests/Feature/ExampleTest.php
+#	new file:   tennis-court-schedules/tests/Feature/ProfileTest.php
+#	new file:   tennis-court-schedules/tests/TestCase.php
+#	new file:   tennis-court-schedules/tests/Unit/ExampleTest.php
+#	new file:   tennis-court-schedules/vite.config.js
+#
+# Changes not staged for commit:
+#	modified:   .bash_history
+#	modified:   .cache/typescript/5.3/node_modules/.package-lock.json
+#	modified:   .cache/typescript/5.3/node_modules/types-registry/index.json
+#	modified:   .cache/typescript/5.3/node_modules/types-registry/package.json
+#	modified:   .cache/typescript/5.3/package-lock.json
+#	modified:   .cache/typescript/5.3/package.json
+#	modified:   .docker/desktop/log/host/docker-desktop-user-distro.log
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/code-server
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli/code
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/dist/configurationEditingMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/dist/configurationEditingMain.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/configuration-editing/schemas/attachContainer.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/client/dist/node/cssClientMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/icons/css.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/schemas/package.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/server/dist/node/cssServerMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/css-language-features/server/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-auto-launch/.vscode/launch.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-auto-launch/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-auto-launch/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-auto-launch/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-auto-launch/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-server-ready/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-server-ready/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-server-ready/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/debug-server-ready/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/emmet/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/emmet/dist/node/emmetNodeMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/emmet/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/emmet/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/emmet/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/extension-editing/dist/extensionEditingMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/extension-editing/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/extension-editing/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/extension-editing/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/languages/git-commit.language-configuration.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/languages/git-rebase.language-configuration.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/languages/ignore.language-configuration.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/resources/icons/git.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/syntaxes/git-commit.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/syntaxes/git-rebase.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git-base/syntaxes/ignore.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-empty.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-empty.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor-main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/git-editor.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/main.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/ssh-askpass-empty.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/ssh-askpass.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/emojis.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-added.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-conflict.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-copied.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-deleted.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-ignored.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-modified.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-renamed.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-type-changed.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/dark/status-untracked.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/git.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-added.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-conflict.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-copied.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-deleted.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-ignored.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-modified.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-renamed.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-type-changed.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/resources/icons/light/status-untracked.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/dist/extension.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/media/auth.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/media/favicon.ico
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/media/index.html
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github-authentication/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/dist/extension.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/markdown.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/a.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/b.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/x.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/a.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/b.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/x.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/a.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/b.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/x.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/some-markdown.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/github/testWorkspace/x.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/grunt/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/grunt/dist/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/grunt/images/grunt.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/grunt/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/grunt/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/gulp/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/gulp/dist/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/gulp/images/gulp.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/gulp/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/gulp/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/client/dist/node/htmlClientMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/icons/html.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/schemas/package.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/server/dist/node/htmlServerMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/server/lib/jquery.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/html-language-features/server/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/dist/ipynbMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/notebook-out/cellAttachmentRenderer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ipynb/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/jake/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/jake/dist/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/jake/images/cowboy_hat.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/jake/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/jake/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/client/dist/node/jsonClientMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/icons/json.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/server/dist/node/jsonServerMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/json-language-features/server/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/.eslintignore
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/highlight.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/markdown.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/pre.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/preview-dark.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/media/preview-light.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/notebook-out/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/schemas/package.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/CHANGELOG.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/build/pipeline.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/dist/node/workerMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/dist/node/workerMain.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/server/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-language-features/types/previewMessaging.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_AMS-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Caligraphic-Bold.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Caligraphic-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Fraktur-Bold.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Fraktur-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Main-Bold.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Main-BoldItalic.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Main-Italic.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Main-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Math-BoldItalic.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Math-Italic.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_SansSerif-Bold.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_SansSerif-Italic.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_SansSerif-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Script-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Size1-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Size2-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Size3-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Size4-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/fonts/KaTeX_Typewriter-Regular.woff2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/katex.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/notebook-out/katex.min.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/preview-styles/index.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/syntaxes/md-math-block.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/syntaxes/md-math-inline.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/markdown-math/syntaxes/md-math.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/audioPreview.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/audioPreview.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/imagePreview.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/imagePreview.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/loading-dark.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/loading-hc.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/loading.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/videoPreview.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/media/videoPreview.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/media-preview/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/merge-conflict/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/merge-conflict/dist/mergeConflictMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/merge-conflict/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/merge-conflict/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/merge-conflict/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/media/auth.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/media/favicon.ico
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/media/index.html
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/microsoft-authentication/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/ThirdPartyNotices.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/ci.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/out/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug-companion/resources/logo.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/ThirdPartyNotices.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/configure.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/connect.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/disconnect.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/node.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/open-file.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/page.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/pause.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/restart.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/resume.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/service-worker.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/stop-profiling.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/stop.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/dark/worker.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/configure.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/connect.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/disconnect.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/node.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/open-file.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/page.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/pause.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/restart.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/resume.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/service-worker.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/stop.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/light/worker.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/logo.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/logo.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/auto-attach.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/flame-chart.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/instrumentation-breakpoints.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/instrumentation-breakpoints2.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/link-debugging.gif
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/logo-with-text.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/npm-code-lens.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/repl-improvements.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/returnvalue.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/top-level-await.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/web-worker.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/resources/readme/webview2.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/bootloader.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/chromehash_bg.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/diagnosticTool.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/diagnosticTool.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/hash.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/mappings.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/renameWorker.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/ui/basic-wat.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/vendor/acorn.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/w32appcontainertokens-XTRA77NA.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.js-debug/src/watchdog.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/ci.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/84b6bc62673660f3ffa2.module.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/9.extension.web.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/94625be35e004f01f9d5.module.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshot-client.bundle.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshotWorker.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/resources/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/ms-vscode.vscode-js-profile-table/tsconfig.browser.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/cancellationToken.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/cs/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/de/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/es/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/fr/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/it/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/ja/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/ko/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.decorators.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.dom.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.core.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.generator.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.promise.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2016.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2016.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.date.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.object.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.string.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.promise.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.array.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.object.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.string.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2019.symbol.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.date.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.number.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.promise.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.string.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.promise.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.string.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2021.weakref.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.array.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.error.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.object.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.regexp.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.sharedmemory.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2022.string.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2023.array.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2023.collection.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2023.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es5.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.es6.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.esnext.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.esnext.disposable.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.esnext.full.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.webworker.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/lib.webworker.iterable.d.ts
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/pl/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/ru/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/tr/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/tsserver.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/typesMap.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/typescript.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/typingsInstaller.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/watchGuard.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/node_modules/typescript/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/dist/npmMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/dist/npmMain.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/images/code.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/images/npm_icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/npm/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/php-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/php-language-features/dist/phpMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/php-language-features/icons/logo.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/php-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/php-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/media/demo.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/references-view/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/dist/media/refresh-dark.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/dist/media/refresh-light.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/images/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/search-result/syntaxes/searchResult.tmLanguage.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/codicon.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/main.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/preview-dark.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/media/preview-light.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/simple-browser/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/tunnel-forwarding/.vscode/launch.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/tunnel-forwarding/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/tunnel-forwarding/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/tunnel-forwarding/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/tunnel-forwarding/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/README.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/dist/extension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/dist/extension.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/media/icon.png
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/package.nls.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/resources/walkthroughs/create-a-js-file.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/resources/walkthroughs/debug-and-run.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/resources/walkthroughs/install-node-js.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/resources/walkthroughs/learn-more.svg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/schemas/jsconfig.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/schemas/package.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/typescript-language-features/schemas/tsconfig.schema.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/LICENSE.TXT
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/NOTICE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/PRIVACY
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.integrity.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core.gbl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core.gbl.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core.integrity.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/bundle/ms.core.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/AppInsightsCore.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/BaseCore.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/DataModels.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/ESPromise.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/ESPromiseScheduler.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/Enums.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/Index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/InternalConstants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/Utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist-esm/src/ValueSanitizer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist/ms.core.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/dist/ms.core.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-core-js/tsconfig.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/LICENSE.TXT
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/NOTICE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/PRIVACY
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.gbl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.gbl.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.integrity.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post-3.2.13.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post.gbl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post.gbl.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post.integrity.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/bundle/ms.post.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/BatchNotificationActions.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/ClockSkewManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/DataModels.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/EventBatch.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/HttpManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/Index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/InternalConstants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/KillSwitch.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/PostChannel.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/RetryPolicy.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/Serializer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/TimeoutOverrideWrapper.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist-esm/src/typings/XDomainRequest.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist/ms.post.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/dist/ms.post.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/1ds-post-js/tsconfig.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/NOTICE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/PRIVACY
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/browser/applicationinsights-core-js.integrity.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/browser/applicationinsights-core-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/browser/applicationinsights-core-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/EnumHelperFuncs.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/EventsDiscardedReason.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/LoggingEnums.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/SendRequestReason.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/TelemetryUnloadReason.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Enums/TelemetryUpdateReason.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IAppInsightsCore.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IChannelControls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IConfiguration.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ICookieMgr.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDbgExtension.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDiagnosticLogger.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IDistributedTraceContext.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IInstrumentHooks.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/INotificationListener.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/INotificationManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IPerfEvent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IPerfManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IProcessTelemetryContext.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryInitializers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryItem.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryPlugin.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryPluginChain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryUnloadState.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITelemetryUpdateState.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/ITraceParent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK.Interfaces/IUnloadableComponent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/AppInsightsCore.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/BaseCore.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/BaseTelemetryPlugin.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/ChannelController.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/CookieMgr.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/CoreUtils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DataCacheHelper.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DbgExtensionUtils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/DiagnosticLogger.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/EnvUtils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/EventHelpers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/HelperFuncs.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/InstrumentHooks.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/InternalConstants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/NotificationManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/PerfManager.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/ProcessTelemetryContext.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/RandomHelper.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/TelemetryHelpers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/TelemetryInitializerPlugin.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/UnloadHandlerContainer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/JavaScriptSDK/W3cTraceParent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/__DynamicConstants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist-esm/applicationinsights-core-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.api.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.api.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/dist/applicationinsights-core-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/tsconfig.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-core-js/types/tsdoc-metadata.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/NOTICE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/browser/applicationinsights-shims.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/browser/applicationinsights-shims.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist-esm/Constants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist-esm/Helpers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist-esm/TsLibGlobals.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist-esm/TsLibShims.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist-esm/applicationinsights-shims.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist/esm/applicationinsights-shims.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist/esm/applicationinsights-shims.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist/umd/applicationinsights-shims.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/dist/umd/applicationinsights-shims.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/applicationinsights-shims/tsconfig.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/NOTICE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/RELEASES.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/amd/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/amd/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/cjs/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/cjs/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/esm/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/esm/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/iife/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/iife/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/node/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/node/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/system/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/system/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/umd/dynamicproto-js.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/lib/dist/umd/dynamicproto-js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/tools/rollup/esm/removedynamic.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@microsoft/dynamicproto-js/tools/rollup/node/removedynamic.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@parcel/watcher/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@parcel/watcher/build/Release/watcher.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@parcel/watcher/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@parcel/watcher/index.js.flow
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@parcel/watcher/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@tootallnate/once/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@tootallnate/once/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@tootallnate/once/dist/overloaded-parameters.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@tootallnate/once/dist/types.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@tootallnate/once/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/iconv-lite-umd/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/iconv-lite-umd/lib/iconv-lite-umd.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/iconv-lite-umd/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/proxy-agent/LICENSE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/proxy-agent/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/proxy-agent/out/agent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/proxy-agent/out/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/proxy-agent/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/bin/rg
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/build/pipeline.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/jsconfig.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/lib/download.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/lib/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/lib/postinstall.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/ripgrep/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/azure-pipelines/build.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/azure-pipelines/ci.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/azure-pipelines/publish.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/build/Release/spdlog.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/spdlog/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/cli/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/dist/lib/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/dist/lib/index.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/model/group1-shard1of1.bin
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/model/model.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@vscode/vscode-languagedetection/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-canvas/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-canvas/lib/addon-canvas.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-canvas/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/lib/addon-image.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/lib/addon-image.js.LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/IIPHandler.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/IIPHeaderParser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/IIPHeaderParser.test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/IIPMetrics.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/IIPMetrics.test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/ImageAddon.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/ImageRenderer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/ImageStorage.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/out/SixelHandler.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-image/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-search/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-search/lib/addon-search.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-search/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-serialize/lib/addon-serialize.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-serialize/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-unicode11/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-unicode11/lib/addon-unicode11.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-unicode11/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-webgl/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-webgl/lib/addon-webgl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/addon-webgl/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/headless/lib-headless/xterm-headless.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/headless/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/xterm/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/xterm/css/xterm.css
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/xterm/lib/xterm.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/@xterm/xterm/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/agent-base/dist/helpers.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/agent-base/dist/helpers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/agent-base/dist/index.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/agent-base/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/agent-base/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/base64-js/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/base64-js/base64js.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/base64-js/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/base64-js/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bindings/LICENSE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bindings/bindings.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bindings/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bl/BufferList.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bl/LICENSE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bl/bl.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/bl/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/compile.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/constants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/expand.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/parse.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/stringify.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/lib/utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/braces/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer-crc32/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer-crc32/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer-crc32/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer/AUTHORS.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/buffer/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/chownr/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/chownr/chownr.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/chownr/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/cookie/HISTORY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/cookie/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/cookie/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/cookie/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/src/browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/src/common.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/src/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/debug/src/node.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/decompress-response/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/decompress-response/license
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/decompress-response/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/deep-extend/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/deep-extend/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/deep-extend/lib/deep-extend.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/deep-extend/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/detect-libc/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/detect-libc/lib/detect-libc.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/detect-libc/lib/process.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/detect-libc/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/end-of-stream/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/end-of-stream/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/end-of-stream/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/expand-template/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/expand-template/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/expand-template/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/expand-template/test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fd-slicer/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fd-slicer/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fd-slicer/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/file-uri-to-path/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/file-uri-to-path/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/file-uri-to-path/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fill-range/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fill-range/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fill-range/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fs-constants/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fs-constants/browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fs-constants/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/fs-constants/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/github-from-package/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/github-from-package/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/github-from-package/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/clone.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/graceful-fs.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/legacy-streams.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/graceful-fs/polyfills.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/http-proxy-agent/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/http-proxy-agent/dist/index.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/http-proxy-agent/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/http-proxy-agent/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/https-proxy-agent/dist/index.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/https-proxy-agent/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/https-proxy-agent/dist/parse-proxy-response.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/https-proxy-agent/dist/parse-proxy-response.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/https-proxy-agent/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ieee754/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ieee754/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ieee754/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/inherits/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/inherits/inherits.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/inherits/inherits_browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/inherits/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ini/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ini/ini.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ini/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ip/lib/ip.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ip/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-extglob/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-extglob/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-extglob/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-glob/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-glob/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-glob/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-number/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-number/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/is-number/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/jschardet/CONTRIBUTORS
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/jschardet/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/jschardet/dist/jschardet.min.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/jschardet/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/HISTORY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/build/Release/kerberos.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/build/Release/obj.target/kerberos.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/lib/auth_processes/mongodb.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/lib/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/lib/kerberos.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/lib/util.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/kerberos/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/lru-cache/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/lru-cache/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/lru-cache/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/micromatch/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/micromatch/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/micromatch/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mimic-response/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mimic-response/license
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mimic-response/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/minimist/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/minimist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/minimist/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp-classic/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp-classic/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp-classic/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/bin/cmd.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/find-made.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/mkdirp-manual.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/mkdirp-native.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/opts-arg.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/path-arg.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/lib/use-native.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/mkdirp/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ms/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ms/license.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/ms/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/napi-build-utils/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/napi-build-utils/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/napi-build-utils/index.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/napi-build-utils/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/native-watchdog/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/native-watchdog/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/native-watchdog/build/Release/watchdog.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/native-watchdog/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/native-watchdog/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-abi/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-abi/abi_registry.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-abi/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-abi/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-abi/scripts/update-abi-registry.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/bin.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/build-test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/optional.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-gyp-build/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/build/Release/pty.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/conpty_console_list_agent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/eventEmitter2.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/interfaces.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/shared/conout.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/terminal.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/types.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/unixTerminal.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/windowsConoutConnection.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/windowsPtyAgent.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/windowsTerminal.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/lib/worker/conoutSocketWorker.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-pty/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-vsce-sign/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/node-vsce-sign/src/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/once/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/once/once.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/once/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pend/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pend/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pend/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pend/test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/lib/constants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/lib/parse.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/lib/picomatch.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/lib/scan.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/lib/utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/picomatch/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/proxy-from-env/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/proxy-from-env/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/proxy-from-env/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/proxy-from-env/test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pump/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pump/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pump/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pump/test-browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/pump/test-node.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/LICENSE.APACHE2
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/LICENSE.BSD
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/LICENSE.MIT
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/cli.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/lib/utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/rc/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/GOVERNANCE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/errors-browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/errors.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/experimentalWarning.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/_stream_duplex.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/_stream_passthrough.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/_stream_readable.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/_stream_transform.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/_stream_writable.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/async_iterator.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/buffer_list.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/destroy.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/end-of-stream.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/from-browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/from.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/pipeline.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/state.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/stream-browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/lib/internal/streams/stream.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/readable-browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/readable-stream/readable.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/safe-buffer/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/safe-buffer/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/safe-buffer/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/bin/semver.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/classes/comparator.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/classes/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/classes/range.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/classes/semver.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/clean.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/cmp.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/coerce.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/compare-build.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/compare-loose.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/compare.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/diff.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/eq.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/gt.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/gte.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/inc.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/lt.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/lte.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/major.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/minor.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/neq.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/parse.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/patch.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/prerelease.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/rcompare.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/rsort.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/satisfies.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/sort.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/functions/valid.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/internal/constants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/internal/debug.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/internal/identifiers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/internal/parse-options.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/internal/re.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/preload.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/range.bnf
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/gtr.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/intersects.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/ltr.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/max-satisfying.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/min-satisfying.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/min-version.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/outside.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/simplify.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/subset.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/to-comparators.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/semver/ranges/valid.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-concat/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-concat/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-concat/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-get/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-get/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/simple-get/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/smart-buffer/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/smart-buffer/build/smartbuffer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/smart-buffer/build/utils.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/smart-buffer/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks-proxy-agent/dist/index.d.ts.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks-proxy-agent/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks-proxy-agent/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/client/socksclient.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/common/constants.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/common/helpers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/common/receivebuffer.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/common/util.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/build/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/socks/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/string_decoder/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/string_decoder/lib/string_decoder.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/string_decoder/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/strip-json-comments/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/strip-json-comments/license
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/strip-json-comments/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-fs/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-fs/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-fs/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/extract.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/headers.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/pack.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tar-stream/sandbox.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tas-client-umd/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tas-client-umd/build/publish.yml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tas-client-umd/lib/tas-client-umd.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tas-client-umd/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/to-regex-range/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/to-regex-range/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/to-regex-range/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tunnel-agent/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tunnel-agent/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/tunnel-agent/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/util-deprecate/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/util-deprecate/browser.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/util-deprecate/node.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/util-deprecate/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/LICENSE.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/NOTICES.txt
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/release/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-oniguruma/release/onig.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexp-languagedetection/dist/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexp-languagedetection/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexpp/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexpp/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexpp/index.mjs
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexpp/index.mjs.map
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-regexpp/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-textmate/LICENSE.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-textmate/SECURITY.md
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-textmate/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vscode-textmate/release/main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/build/Release/vsda.node
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/Cargo.lock
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/Cargo.toml
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/crypt.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/src/lib.rs
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/web/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/web/vsda.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/rust/web/vsda_bg.wasm
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/vsda/test.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/wrappy/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/wrappy/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/wrappy/wrappy.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yallist/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yallist/iterator.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yallist/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yallist/yallist.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yauzl/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yauzl/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yauzl/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yazl/LICENSE
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yazl/index.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node_modules/yazl/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-amd.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-fork.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap-node.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/bootstrap.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/nls.metadata.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/server-cli.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/server-main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/base/common/performance.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/base/node/cpuUsage.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/base/node/ps.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/loader.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/files/node/watcher/watcherMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/files/node/watcher/watcherMain.nls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.nls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.cli.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.cli.nls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.nls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/api/node/extensionHostProcess.nls.js
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/fish_xdg_data/fish/vendor_conf.d/shellIntegration.fish
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-env.zsh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-login.zsh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-profile.zsh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-rc.zsh
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/workbench/contrib/terminal/browser/media/shellIntegration.ps1
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/package.json
+#	deleted:    .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/product.json
+#	deleted:    .vscode-server/data/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-ja-1.85.2024011709
+#	modified:   .vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache
+#	modified:   .vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache
+#	modified:   .vscode-server/data/User/History/-4710a857/entries.json
+#	modified:   .vscode-server/data/User/History/41b0583b/entries.json
+#	deleted:    .vscode-server/data/User/workspaceStorage/e6a6130960c1a534f20816c6f7516df5/vscode.lock
+#	modified:   .vscode-server/data/languagepacks.json
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost1/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost1/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost1/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost2/ms-azuretools.vscode-docker/Docker.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost2/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost2/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/exthost2/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/network.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/ptyhost.log
+#	deleted:    .vscode-server/data/logs/20240123T195247/remoteagent.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/exthost1/ms-azuretools.vscode-docker/Docker.log
+#	deleted:    ".vscode-server/data/logs/20240124T001152/exthost1/output_logging_20240124T001156/1-JSON \350\250\200\350\252\236\343\202\265\343\203\274\343\203\220\343\203\274.log"
+#	deleted:    .vscode-server/data/logs/20240124T001152/exthost1/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/exthost1/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/exthost1/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/network.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/ptyhost.log
+#	deleted:    .vscode-server/data/logs/20240124T001152/remoteagent.log
+#	deleted:    ".vscode-server/data/logs/20240124T161507/exthost1/output_logging_20240124T161509/1-JSON \350\250\200\350\252\236\343\202\265\343\203\274\343\203\220\343\203\274.log"
+#	deleted:    ".vscode-server/data/logs/20240124T161507/exthost1/output_logging_20240124T161509/2-Markdown \350\250\200\350\252\236\343\202\265\343\203\274\343\203\220\343\203\274.log"
+#	deleted:    ".vscode-server/data/logs/20240124T161507/exthost1/output_logging_20240124T161509/3-CSS \350\250\200\350\252\236\343\202\265\343\203\274\343\203\220\343\203\274.log"
+#	deleted:    .vscode-server/data/logs/20240124T161507/exthost1/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/exthost1/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/exthost1/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/exthost1/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/network.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/ptyhost.log
+#	deleted:    .vscode-server/data/logs/20240124T161507/remoteagent.log
+#	modified:   .vscode-server/extensions/extensions.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/.vsixmanifest
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/CHANGELOG.md
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/README.md
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/ThirdPartyNotices.txt
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/languagepack.png
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/package.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/ms-vscode.js-debug.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.bat.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.builtin-notebook-renderers.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.clojure.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.coffeescript.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.configuration-editing.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.cpp.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.csharp.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.css-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.css.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.dart.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.debug-auto-launch.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.debug-server-ready.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.diff.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.docker.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.emmet.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.extension-editing.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.fsharp.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.git-base.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.git.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.github-authentication.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.github.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.go.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.groovy.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.grunt.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.gulp.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.handlebars.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.hlsl.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.html-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.html.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.ini.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.ipynb.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.jake.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.java.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.javascript.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.json-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.json.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.julia.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.latex.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.less.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.log.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.lua.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.make.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.markdown-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.markdown-math.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.markdown.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.media-preview.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.merge-conflict.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.microsoft-authentication.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.npm.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.objective-c.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.perl.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.php-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.php.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.powershell.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.pug.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.python.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.r.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.razor.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.references-view.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.restructuredtext.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.ruby.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.rust.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.scss.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.search-result.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.shaderlab.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.shellscript.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.simple-browser.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.sql.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.swift.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-abyss.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-defaults.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-kimbie-dark.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-monokai-dimmed.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-monokai.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-quietlight.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-red.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-solarized-dark.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-solarized-light.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.theme-tomorrow-night-blue.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.tunnel-forwarding.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.typescript-language-features.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.typescript.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.vb.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.vscode-theme-seti.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.xml.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/extensions/vscode.yaml.i18n.json
+#	deleted:    .vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709/translations/main.i18n.json
+#
+# Untracked files:
+#	.cache/typescript/5.3/node_modules/@popperjs/
+#	.cache/typescript/5.3/node_modules/@types/bootstrap/
+#	.dotnet/
+#	.vscode-remote-containers/
+#	.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/
+#	.vscode-server/data/CachedExtensionVSIXs/bmewburn.vscode-intelephense-client-1.10.2
+#	.vscode-server/data/CachedExtensionVSIXs/bradlc.vscode-tailwindcss-0.10.5
+#	.vscode-server/data/CachedExtensionVSIXs/ecmel.vscode-html-css-2.0.9
+#	.vscode-server/data/CachedExtensionVSIXs/esbenp.prettier-vscode-10.1.0
+#	.vscode-server/data/CachedExtensionVSIXs/mosapride.zenkaku-0.0.3
+#	.vscode-server/data/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.29.0
+#	.vscode-server/data/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-ja-1.85.2024020709
+#	.vscode-server/data/CachedExtensionVSIXs/onecentlin.laravel-blade-1.35.1
+#	.vscode-server/data/CachedExtensionVSIXs/ryannaddy.laravel-artisan-0.0.31
+#	.vscode-server/data/CachedExtensionVSIXs/xdebug.php-debug-1.34.0
+#	.vscode-server/data/User/History/-1005e650/
+#	.vscode-server/data/User/History/-1c1488af/
+#	.vscode-server/data/User/History/-1f06d72e/
+#	.vscode-server/data/User/History/-20314f25/
+#	.vscode-server/data/User/History/-2232b0a4/
+#	.vscode-server/data/User/History/-2f8b0ddb/
+#	.vscode-server/data/User/History/-3090270e/
+#	.vscode-server/data/User/History/-3df46ac/
+#	.vscode-server/data/User/History/-3e0d0ff4/
+#	.vscode-server/data/User/History/-3e9694be/
+#	.vscode-server/data/User/History/-41dd7cd7/
+#	.vscode-server/data/User/History/-4710a857/6GSg.php
+#	.vscode-server/data/User/History/-4710a857/8r1M.php
+#	.vscode-server/data/User/History/-4710a857/BJoB.php
+#	.vscode-server/data/User/History/-4710a857/EOwy.php
+#	.vscode-server/data/User/History/-4710a857/HV9I.php
+#	.vscode-server/data/User/History/-4710a857/KmPg.php
+#	.vscode-server/data/User/History/-4710a857/ODWi.php
+#	.vscode-server/data/User/History/-4710a857/S7iN.php
+#	.vscode-server/data/User/History/-4710a857/VS0s.php
+#	.vscode-server/data/User/History/-4710a857/WPDD.php
+#	.vscode-server/data/User/History/-4710a857/eSIj.php
+#	.vscode-server/data/User/History/-4710a857/fETT.php
+#	.vscode-server/data/User/History/-4710a857/gFUG.php
+#	.vscode-server/data/User/History/-4710a857/j57T.php
+#	.vscode-server/data/User/History/-4710a857/oRm4.php
+#	.vscode-server/data/User/History/-4710a857/qxxO.php
+#	.vscode-server/data/User/History/-4710a857/ucxm.php
+#	.vscode-server/data/User/History/-49a21a2e/
+#	.vscode-server/data/User/History/-49c87202/
+#	.vscode-server/data/User/History/-4beaf092/
+#	.vscode-server/data/User/History/-543154f7/
+#	.vscode-server/data/User/History/-56d9f79c/
+#	.vscode-server/data/User/History/-5bf56e23/
+#	.vscode-server/data/User/History/-5c820e5c/
+#	.vscode-server/data/User/History/-5e09a9b4/
+#	.vscode-server/data/User/History/-5fdbbb64/
+#	.vscode-server/data/User/History/-61c15383/
+#	.vscode-server/data/User/History/-6366758d/
+#	.vscode-server/data/User/History/-63de5627/
+#	.vscode-server/data/User/History/-679cdabf/K2KH.php
+#	.vscode-server/data/User/History/-680b2e1a/
+#	.vscode-server/data/User/History/-6894e109/
+#	.vscode-server/data/User/History/-7847a12a/
+#	.vscode-server/data/User/History/-7ecd1e0b/
+#	.vscode-server/data/User/History/-8428459/
+#	.vscode-server/data/User/History/-d630439/
+#	.vscode-server/data/User/History/-ff53c3b/
+#	.vscode-server/data/User/History/1362288a/
+#	.vscode-server/data/User/History/141ae86f/
+#	.vscode-server/data/User/History/17fec360/
+#	.vscode-server/data/User/History/1a743588/
+#	.vscode-server/data/User/History/1ace89b1/
+#	.vscode-server/data/User/History/1ed134b0/
+#	.vscode-server/data/User/History/25a245d9/
+#	.vscode-server/data/User/History/263a26e1/
+#	.vscode-server/data/User/History/2c332991/
+#	.vscode-server/data/User/History/2e408ce5/
+#	.vscode-server/data/User/History/3347c2c6/
+#	.vscode-server/data/User/History/3e4f6f92/
+#	.vscode-server/data/User/History/3ffb890c/
+#	.vscode-server/data/User/History/41b0583b/fXjw.php
+#	.vscode-server/data/User/History/41b0583b/hHmW.php
+#	.vscode-server/data/User/History/4adf99d/
+#	.vscode-server/data/User/History/4b1c53fd/
+#	.vscode-server/data/User/History/5ad50abb/
+#	.vscode-server/data/User/History/5b25f39c/
+#	.vscode-server/data/User/History/64456604/
+#	.vscode-server/data/User/History/6acc977b/
+#	.vscode-server/data/User/History/6bd18067/
+#	.vscode-server/data/User/History/6c67574e/
+#	.vscode-server/data/User/History/71d2ae7c/
+#	.vscode-server/data/User/History/b0dd0cc/
+#	.vscode-server/data/User/History/b5364c9/
+#	.vscode-server/data/User/History/bb30d07/
+#	.vscode-server/data/User/History/f0d36c9/
+#	.vscode-server/data/User/workspaceStorage/5d5ad518a425d6cb473e517b3a0ba92f/
+#	.vscode-server/data/User/workspaceStorage/e6a6130960c1a534f20816c6f7516df5/bmewburn.vscode-intelephense-client/
+#	.vscode-server/data/clp/253e8fe96037177abc1a6777c3fa48c5.ja/
+#	.vscode-server/data/clp/4afab8545c7ba747110bfe042b32cacb.ja/
+#	.vscode-server/data/clp/4f88d28a9f004f1e72ae170ee1acd9c6.ja/
+#	.vscode-server/data/clp/fa8da0b86a691a8873ef24bc0b578207.ja/
+#	.vscode-server/data/logs/20240204T111604/
+#	.vscode-server/data/logs/20240205T224837/
+#	.vscode-server/data/logs/20240207T193540/
+#	.vscode-server/data/logs/20240207T221252/
+#	.vscode-server/data/logs/20240209T221520/
+#	.vscode-server/data/logs/20240211T223802/
+#	.vscode-server/data/logs/20240211T225831/
+#	.vscode-server/data/logs/20240212T095831/
+#	.vscode-server/data/logs/20240212T154528/
+#	.vscode-server/data/logs/20240214T111245/
+#	.vscode-server/extensions/.obsolete
+#	.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.10.2/
+#	.vscode-server/extensions/bradlc.vscode-tailwindcss-0.10.5/
+#	.vscode-server/extensions/ecmel.vscode-html-css-2.0.9/
+#	.vscode-server/extensions/esbenp.prettier-vscode-10.1.0/
+#	.vscode-server/extensions/mosapride.zenkaku-0.0.3/
+#	.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.0/
+#	.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024020709/
+#	.vscode-server/extensions/onecentlin.laravel-blade-1.35.1/
+#	.vscode-server/extensions/ryannaddy.laravel-artisan-0.0.31/
+#	.vscode-server/extensions/xdebug.php-debug-1.34.0/
+#

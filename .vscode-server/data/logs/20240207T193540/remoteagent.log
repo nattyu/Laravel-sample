@@ -1,0 +1,24 @@
+2024-02-07 19:35:41.019 [info] 
+
+
+
+
+2024-02-07 19:35:41.060 [info] Extension host agent started.
+2024-02-07 19:35:42.229 [info] [127.0.0.1][073d6579][ManagementConnection] New connection established.
+2024-02-07 19:35:44.062 [info] [127.0.0.1][5a785b7b][ExtensionHostConnection] New connection established.
+2024-02-07 19:35:44.284 [info] [127.0.0.1][5a785b7b][ExtensionHostConnection] <698> Launched Extension Host Process.
+2024-02-07 19:35:51.786 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:35:51.787 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:35:52.701 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:35:52.832 [info] Extensions is already requested to install ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:36:07.918 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:36:09.101 [info] Extracted extension to file:///home/nattyu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024020709: ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:36:09.132 [info] Renamed to /home/nattyu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024020709
+2024-02-07 19:36:09.137 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:36:09.207 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-02-07 19:36:09.442 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ja-1.85.2024013109
+2024-02-07 19:36:09.609 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-02-07 20:13:54.497 [info] [127.0.0.1][5a785b7b][ExtensionHostConnection] The client has reconnected.
+2024-02-07 20:13:55.112 [info] [127.0.0.1][073d6579][ManagementConnection] The client has reconnected.
+2024-02-07 21:15:14.039 [info] [127.0.0.1][073d6579][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-07 21:15:15.127 [info] [127.0.0.1][5a785b7b][ExtensionHostConnection] <698> Extension Host Process exited with code: 0, signal: null.

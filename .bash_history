@@ -259,3 +259,107 @@ git push
 git merge --allow-unrelated-histories
 git push
 git status
+sail artisan make:controller PostController --resource --model=Post
+sail artisan route:list
+git status
+git restore
+git restore ../
+git status
+sail artisan make:controller PostController --resource --model=Post
+git status
+git add .
+git status
+git commit -m "20240125 Update2"
+git push
+sail artisan make:seeder PostSeeder
+sail artisan db:seed --class=PostSeeder
+sail artisan make:factory PostFactory
+sail artisan db:seed
+sail artisan make:component Message
+git status
+git add .
+git status
+git commit -m "20240125 Update3"
+git push
+git status
+git add .
+git commit -m "Delete gate"
+git push
+curl -s https:///laravel.build/tennis-court-schedules | bash
+cd tennis-court-schedules
+sail up -d
+sail stop
+sail up -d
+sail composer require laravel/breeze --dev
+sail artisan breeze:install
+sial artisan migrate
+sail artisan migrate
+sail artisan lang:publish
+sail composer require askdkc/breezejp --dev
+sail artisan breezejp
+sail artisan make comtroller:
+sail artisan make:controller PostCourtController --resource --model=PostCourt
+sail artisan make:model ElectedCourt
+sail artisan make:model ElectedCourt -m
+sail artisan make:model RegistNewCourt -m
+sail artisan migrate
+sail artisan make:controller RegistNewCourtController
+sail artisan make:migration add_columns_to_users_table --table=users
+sail artisan migrate
+sail artisan make:migration add_columns_to_elected_courts_table --table=elected_courts
+sail artisan migrate
+sail artisan thinker
+sail artisan make:migration create_post_courts_table
+sail artisan migrate
+sail artisan route:list
+sail artisan tinker
+sail artisan migrate
+sail artisan make:migration add_date_column_to_post_courts_table --table=post_courts
+sail artisan migrate
+sail artisan make:controller PostAttendanceController --resource --model=PostAttendance
+sail artisan make:migration create_post_attendances_table
+sail artisan migrate
+sail npm run dev
+sail up -d
+sail stop
+sail up -d
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+sail artisan make:migration change_columns_type_of_post_courts_table --table=post_courts
+sail artisan migrate
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+composer dump-autoload
+sail composer dump-autoload
+sail artisan tinker
+sail artisan route:list
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+sail artisan route:list
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+sail artisan route:list
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+cd tennis-court-schedules
+sail npm run dev
+sail up -d
+sail artisan make:migration add_status_column_to_users_table --table=users
+sail artisan migrate
+cd tennis-court-schedules
+sail npm run dev
+                                                      sali up -d
+sail up -d
+cd tennis-court-schedules
+sail npm run dev

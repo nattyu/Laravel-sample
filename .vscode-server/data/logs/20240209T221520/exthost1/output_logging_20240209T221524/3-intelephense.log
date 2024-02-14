@@ -1,0 +1,20 @@
+[Info  - 10:15:30 PM] Initialising intelephense 1.10.2
+[Info  - 10:15:31 PM] Reading state from /home/nattyu/.vscode-server/data/User/workspaceStorage/5d5ad518a425d6cb473e517b3a0ba92f/bmewburn.vscode-intelephense-client/4c1f4e7a.
+[Info  - 10:15:32 PM] Initialised in 3192 ms
+[Info  - 10:15:33 PM] Searching file:///home/nattyu/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.10.2/node_modules/intelephense/lib/stub for files to index.
+[Info  - 10:15:33 PM] Searching file:///home/nattyu/tennis-court-schedules for files to index.
+[Warn  - 10:15:37 PM] file:///home/nattyu/tennis-court-schedules/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 10:15:37 PM] Indexing started.
+[Info  - 10:15:37 PM] Indexing ended. 3 files indexed in 0s.
+[Info  - 10:15:37 PM] Writing state to /home/nattyu/.vscode-server/data/User/workspaceStorage/5d5ad518a425d6cb473e517b3a0ba92f/bmewburn.vscode-intelephense-client/4c1f4e7a.
+[Info  - 10:15:42 PM] Wrote state in 3.8s.
+[Info  - 10:21:00 PM] Indexing started.
+[Info  - 10:21:00 PM] Indexing ended. 2 files indexed in 0s.
+[Info  - 10:22:29 PM] Indexing started.
+[Info  - 10:22:29 PM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:22:30 PM] Indexing started.
+[Info  - 10:22:30 PM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:31:35 PM] Indexing started.
+[Info  - 10:31:35 PM] Indexing ended. 1 files indexed in 0s.
+[Info  - 10:31:36 PM] Indexing started.
+[Info  - 10:31:36 PM] Indexing ended. 1 files indexed in 0s.

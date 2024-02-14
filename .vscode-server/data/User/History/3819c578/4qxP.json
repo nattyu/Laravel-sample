@@ -1,0 +1,14 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "techtrain-railway.optOutTelemetry": false,
+    "workbench.startupEditor": "none",
+    "editor.renderWhitespace": "boundary",
+    "explorer.confirmDelete": false,
+    "php.validate.executablePath": "",
+    "window.menuBarVisibility": "compact",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": true
+}

@@ -1,0 +1,12 @@
+2024-02-07 22:12:52.248 [info] 
+
+
+
+
+2024-02-07 22:12:52.291 [info] Extension host agent started.
+2024-02-07 22:12:52.701 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-ja /home/nattyu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109
+2024-02-07 22:12:52.734 [info] [127.0.0.1][9326bf4d][ManagementConnection] New connection established.
+2024-02-07 22:12:53.628 [info] [127.0.0.1][c3c6137e][ExtensionHostConnection] New connection established.
+2024-02-07 22:12:53.871 [info] [127.0.0.1][c3c6137e][ExtensionHostConnection] <840> Launched Extension Host Process.
+2024-02-07 23:45:56.386 [info] [127.0.0.1][9326bf4d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-07 23:45:57.726 [info] [127.0.0.1][c3c6137e][ExtensionHostConnection] <840> Extension Host Process exited with code: 0, signal: null.
